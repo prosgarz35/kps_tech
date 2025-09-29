@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Buoyant Tasty Barracuda</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Roboto;
+        font-size: 1rem;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: undefined;
+        text-transform: undefined;
+        letter-spacing: normal;
+        line-height: 1.55;
+        color: var(--color-on-surface);
+        background: var(--color-surface);
+
+        fill: var(--color-on-surface);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="../style.css" />
+    <div>
+      <link href="./footer.css" rel="stylesheet" />
+      <div class="footer-container">
+        <footer class="footer">
+          <div class="footer-main">
+            <div class="footer-container">
+              <div class="footer-brand">
+                <div class="footer-logo">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M12 16h.01M16 16h.01M3 19a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.5a.5.5 0 0 0-.769-.422l-4.462 2.844A.5.5 0 0 1 15 10.5v-2a.5.5 0 0 0-.769-.422L9.77 10.922A.5.5 0 0 1 9 10.5V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2zm5-3h.01"
+                    ></path>
+                  </svg>
+                  <span class="footer-logo-text">КПС Инновации</span>
+                </div>
+                <p class="footer-brand-description">
+                  Ведущий производитель и поставщик оборудования для горной,
+                  машиностроительной и строительной отраслей с более чем
+                  28-летним опытом работы.
+                </p>
+                <div class="footer-certifications">
+                  <div class="footer-cert-item">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
+                      ></path>
+                    </svg>
+                    <span>Сертифицированная продукция</span>
+                  </div>
+                  <div class="footer-cert-item">
+                    <span>Опыт работы с 1996 года</span>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-nav">
+                <div class="footer-nav-column">
+                  <h3 class="footer-nav-title">Услуги</h3>
+                  <ul class="footer-nav-list">
+                    <li>
+                      <a href="#">
+                        <div class="footer-nav-link">
+                          <span>Ремонт оборудования</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="footer-nav-link">
+                          <span>Анкерные крепи</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="footer-nav-link">
+                          <span>Монорельсовые системы</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="footer-nav-link">
+                          <span>Строительные металлоконструкции</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="footer-nav-link">
+                          <span>Трубная продукция</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="footer-nav-column">
+                  <h3 class="footer-nav-title">Отрасли</h3>
+                  <ul class="footer-nav-list">
+                    <li>
+                      <a href="#">
+                        <div class="footer-nav-link">
+                          <span>Горнодобывающая</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="footer-nav-link">
+                          <span>Машиностроение</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="footer-nav-link">
+                          <span>Строительство</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="footer-nav-link">
+                          <span>Карьерная техника</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="footer-nav-link">
+                          <span>Очистные комплексы</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="footer-nav-column">
+                  <h3 class="footer-nav-title">Компания</h3>
+                  <ul class="footer-nav-list">
+                    <li>
+                      <a href="index.html">
+                        <div class="footer-nav-link"><span>Главная</span></div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="footer-nav-link">
+                          <span>О компании</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="footer-nav-link">
+                          <span>Производство</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="footer-nav-link"><span>Качество</span></div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="footer-nav-link"><span>Карьера</span></div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="footer-contact">
+                <h3 class="footer-contact-title">Контактная информация</h3>
+                <div class="footer-contact-items">
+                  <div class="footer-contact-item">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      >
+                        <path
+                          d="m17.97 9.304A8 8 0 0 0 2 10c0 4.69 4.887 9.562 7.022 11.468m12.356-4.842a1 1 0 0 0-3.004-3.004l-4.01 4.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z"
+                        ></path>
+                        <circle cx="10" cy="10" r="3"></circle>
+                      </g>
+                    </svg>
+                    <div class="footer-contact-info">
+                      <span class="footer-contact-label">Адрес:</span>
+                      <span class="footer-contact-value">
+                        г. Новокузнецк, Россия
+                      </span>
+                    </div>
+                  </div>
+                  <div class="footer-contact-item">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"
+                      ></path>
+                    </svg>
+                    <div class="footer-contact-info">
+                      <span class="footer-contact-label">Телефон:</span>
+                      <a href="tel:+73843123456">
+                        <div class="footer-contact-value">
+                          <span>+7 (3843) 12-34-56</span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="footer-contact-item">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      >
+                        <path
+                          d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+                        ></path>
+                        <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                      </g>
+                    </svg>
+                    <div class="footer-contact-info">
+                      <span class="footer-contact-label">Email:</span>
+                      <a href="mailto:info@kps-innovations.ru?subject=">
+                        <div class="footer-contact-value">
+                          <span>info@kps-innovations.ru</span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer-cta">
+                  <p class="footer-cta-text">Готовы обсудить ваш проект?</p>
+                  <button class="btn btn-primary">Получить консультацию</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <div class="footer-bottom-container">
+              <div class="footer-bottom-content">
+                <div class="footer-bottom-legal">
+                  <p class="footer-copyright">
+                    © 2025 ООО «КПС-Технологии». Все права защищены.
+                  </p>
+                  <div class="footer-legal-links">
+                    <a href="#">
+                      <div class="footer-legal-link">
+                        <span>Политика конфиденциальности</span>
+                      </div>
+                    </a>
+                    <a href="#">
+                      <div class="footer-legal-link">
+                        <span>Условия использования</span>
+                      </div>
+                    </a>
+                    <a href="#">
+                      <div class="footer-legal-link">
+                        <span>Карта сайта</span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="footer-bottom-meta">
+                  <div class="footer-expertise">
+                    <div class="footer-expertise-item">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z"
+                        ></path>
+                      </svg>
+                      <span>14 000+ изделий изготовлено</span>
+                    </div>
+                    <div class="footer-expertise-item">
+                      <span>2000+ запасных частей в производстве</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
